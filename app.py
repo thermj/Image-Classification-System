@@ -5,7 +5,7 @@ import streamlit as st
 import numpy as np 
 
 st.header('Image Classification Model')
-model = load_model('C:/Users/ASUS/machine learning projects/image-classification-system/Image_classify_keras.keras')
+model = load_model('C:/image-classification-system/Image_classify_keras.keras')
 
 data_cat = ['apple',
  'banana',
